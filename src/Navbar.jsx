@@ -21,7 +21,7 @@ export const Navbar = () => {
           <Link to='/contacto'>Contacto</Link>
           <Link to='/servicios'>Servicios</Link>
 
-          {/* Mostrar enlaces de perfil, configuración y reportes solo si está autenticado */}
+          {}
           {state?.logged && (
             <>
               <Link to='/perfil'>Perfil</Link>
